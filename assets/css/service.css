@@ -1,0 +1,29 @@
+body{
+     /* background-color: red; */
+}
+.homeheadding::after,
+.video::after {
+  
+    background-color: rgba(0, 0, 0, 0.9) ;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.service ul li i{
+      font-size: 4rem;
+}
+.service ul li span{
+      font-size: 2rem;
+      text-transform: capitalize;
+      
+}
+/* -----------------------------------------Accordian-------------------------------------------- */
+
+.accordian_1 button{
+      text-decoration: none !important;
+      color: wheat !important;
+}
+.accordian_1 .card {
+      background: transparent;
+      color: white
+  }

@@ -1,0 +1,36 @@
+body{
+     /* background-color: black; */
+}
+
+.slidershow button.owl-prev {
+    position: absolute;
+    left: -18rem;
+    bottom: 3rem;
+    background-color: transparent;
+    /* font-size: 3rem; */
+}
+.slidershow h1{
+    color: white;
+}
+.slidershow button i {
+    display: block;
+    font-size: 3rem;
+    color:white ;
+
+}
+.slidershow button.owl-next {
+    position: absolute;
+    right: -18rem;
+    bottom: 3rem;
+}
+.slidershow p{
+     font-weight: bold;
+     color: white;
+     /* font-size: 1.5rem; */
+}
+.slidershow img{
+     border-radius: 50%;
+     width: 200px;
+     max-width: 300px;
+     object-fit: cover;
+}

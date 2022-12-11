@@ -1,0 +1,57 @@
+.infoCard h5{
+    font-size: 2rem;
+    color: wheat;
+}
+.infoCard p{
+    font-size: 1rem;
+    padding: 20px;
+    color: antiquewhite;
+}
+.infoCard i {
+     font-size: 4rem;
+     display: block;
+     padding: 10px;
+      color: tan;
+}
+/* ---------------------------------------slider----------------------------- */
+
+.slidershow button.owl-prev {
+    position: absolute;
+    left: -18rem;
+    bottom: 3rem;
+    background-color: transparent;
+    /* font-size: 3rem; */
+}
+.slidershow h1{
+    color: white;
+}
+.slidershow button i {
+    display: block;
+    font-size: 3rem;
+    color:white ;
+
+}
+.slidershow button.owl-next {
+    position: absolute;
+    right: -18rem;
+    bottom: 3rem;
+}
+.slidershow p{
+     font-weight: bold;
+     /* font-size: 1.5rem; */
+     animation: animi 3s infinite;
+}
+@keyframes animi{
+ 0%{
+    color: tan;
+ }
+ 25%{
+    color: red;
+ }
+ 50%{
+    color: pink;
+}
+75%{
+    color: blueviolet;
+}
+}
