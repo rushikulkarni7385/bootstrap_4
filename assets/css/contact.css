@@ -33,4 +33,14 @@ body{
      width: 200px;
      max-width: 300px;
      object-fit: cover;
+     animation : animation 2s ease-in infinite;
+}
+
+@keyframes animation{
+    form{
+        transform: rotate(0) 
+    }
+    to{
+        transform: rotateY(190deg)
+    }
 }
